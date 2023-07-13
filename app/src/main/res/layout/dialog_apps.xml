@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_create"
+    android:padding="1dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/boder"
+        android:padding="9dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_add_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="29dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="New Apps"/>
+
+        <View
+            android:layout_width="400dp"
+            android:layout_height="1dp"
+            android:background="#beddf2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Tên Apps"/>
+
+        <EditText
+            android:id="@+id/edt_add_nameApps"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#beddf2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Giới Thiệu Apps"/>
+
+        <EditText
+            android:id="@+id/edt_add_GioiThieuApps"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#beddf2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Ảnh Nổi Bật"/>
+
+        <ImageView
+            android:id="@+id/edt_add_imgAppsShow"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_gelary"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Ảnh Review"/>
+
+        <ImageView
+            android:id="@+id/edt_add_AppsReview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_gelary"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Ảnh Review"/>
+
+        <ImageView
+            android:id="@+id/edt_add_AppsReview1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_gelary"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Ảnh Review"/>
+
+        <ImageView
+            android:id="@+id/edt_add_AppsReview2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_gelary"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Điều Khoản"/>
+
+        <EditText
+            android:id="@+id/edt_add_dieuKhoanApps"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#beddf2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Link Download"/>
+
+        <EditText
+            android:id="@+id/edt_add_linkApps"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#beddf2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:id="@+id/tv_error_createApps"
+            />
+        <Button
+            android:id="@+id/btn_addApps"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#3da2ef"
+            android:fontFamily="sans-serif-light"
+            android:text="create Apps"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/btn_huyAddApps"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#3F51B5"
+            android:fontFamily="sans-serif-light"
+            android:text="cance"
+            android:textSize="19dp" />
+
+    </LinearLayout>
+</ScrollView>

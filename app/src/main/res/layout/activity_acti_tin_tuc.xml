@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_create"
+    android:padding="9dp"
+    tools:context=".Tab_Apps.View.Acti_ViewTinTuc">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_viewTinTuc_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold|italic"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Call of Duty®: Infinite Warfare"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Nội Dung Chính :"/>
+
+        <TextView
+            android:id="@+id/tv_viewTinTuc_noiDung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Infinite Warfare delivers three unique game modes: Campaign, Multiplayer, and Zombies."/>
+
+        <ImageView
+            android:id="@+id/img_viewTinTuc_imgShow"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/csgo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Một Số Hình Ảnh:"/>
+
+        <ImageView
+            android:id="@+id/img_viewTinTuc_anhReview1"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="12dp"
+            android:layout_height="200dp"
+            android:src="@drawable/csgo"/>
+
+
+        <ImageView
+            android:id="@+id/img_viewTinTuc_anhReview2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/csgo"/>
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/YouTubePlayerView_viewTinTuc"
+            app:autoPlay="false"
+            />
+
+
+        <Button
+            android:id="@+id/btn_viewTinTuc_Update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#598b1b"
+            android:layout_marginBottom="22dp"
+            android:text="Sửa tin tức"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_create"
+    android:orientation="vertical"
+    tools:context=".Tab_Apps.Frag_Game">
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabLayout_game"
+        android:background="#F0192941"
+        app:tabTextColor="#F03F526F"
+        app:tabSelectedTextColor="#beddf2"
+        app:tabIndicatorColor="#beddf2"
+        />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_Frag_Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_main"
+    tools:context=".Tab_Apps.Frag_CaiDatChung">
+
+    <TextView
+        android:id="@+id/tv_title_caidat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/ic_caidat"
+        android:fontFamily="sans-serif-light"
+        android:text="  cài đặt chung"
+        android:textAllCaps="true"
+        android:textColor="#beddf2"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_title_caidat"
+        android:background="#beddf2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_title_caidat"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_username" />
+
+
+    <TextView
+        android:id="@+id/tv_passWord"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_title_caidat"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Đổi Mật Khẩu"
+        android:textAllCaps="true"
+        android:textColor="#beddf2"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_passWord"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_xoaemail" />
+
+
+    <TextView
+        android:id="@+id/tv_deleteMember"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_passWord"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Vô Hiệu Hóa"
+        android:textAllCaps="true"
+        android:textColor="#beddf2"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_hotro"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_logout" />
+
+    <TextView
+        android:id="@+id/tv_hotro"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_deleteMember"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Hỗ trợ"
+        android:textAllCaps="true"
+        android:textColor="#beddf2"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ic_sp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_deleteMember"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@android:drawable/ic_menu_call" />
+
+    <TextView
+        android:id="@+id/tv_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_hotro"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Đăng Xuất"
+        android:textAllCaps="true"
+        android:textColor="#beddf2"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

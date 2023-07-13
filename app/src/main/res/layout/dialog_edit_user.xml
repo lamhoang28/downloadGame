@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#213549"
+    app:cardCornerRadius="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Cập nhật thông tin"
+        android:textColor="#beddf2"
+        android:textAllCaps="true"
+        android:textSize="22dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/tv_dialog_title_editUser"/>
+    <View
+        android:id="@+id/vieww"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="#beddf2"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tv_dialog_passOld_editUser"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Họ Tên    "
+            android:textColor="#beddf2"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_dia_passWordOld"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/boder_edittext"
+            android:gravity="center"
+            android:padding="9dp"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_dialog_passOld_editUser2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Tuổi  "
+            android:textColor="#beddf2"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_dia_passWordNew"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="100dp"
+            android:inputType="number"
+            android:background="@drawable/boder_edittext"
+            android:gravity="center"
+            android:padding="9dp"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#b7dff5"
+        android:id="@+id/btn_dia_send"
+        android:textColor="#213549"
+        android:text="send"/>
+
+</LinearLayout>

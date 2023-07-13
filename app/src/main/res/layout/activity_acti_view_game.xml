@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_create"
+    android:padding="9dp"
+    tools:context=".Tab_Apps.View.Acti_ViewGame">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/tv_add_tenGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold|italic"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Call of Duty®: Infinite Warfare"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
+
+        <ImageView
+            android:id="@+id/img_add_anhGame"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/csgo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Giới Thiệu :"/>
+
+        <TextView
+            android:id="@+id/tv_add_gioiThieuGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Infinite Warfare delivers three unique game modes: Campaign, Multiplayer, and Zombies."/>
+
+        <TextView
+            android:id="@+id/tv_add_theLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="the loai"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Một Số Hình Ảnh :"/>
+
+        <ImageView
+            android:id="@+id/img_add_anhReview"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/csgo"/>
+
+        <ImageView
+            android:id="@+id/img_add_anhReview1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/csgo"/>
+
+        <ImageView
+            android:id="@+id/img_add_anhReview2"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/csgo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Trailer :"/>
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/YouTubePlayerView_viewGame"
+            app:autoPlay="false"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Điều Khoản :"/>
+
+        <TextView
+            android:id="@+id/tv_add_DieuKhoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Call of Duty: Infinite Warfare will only be playable in the region in which it is purchased. For more information, please visit https://support.activision.com/articles/FAQ/Call-of-Duty-Infinite-Warfare-PC-Region-Definitions."/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_ViewGame_huongDanApk"
+                android:text="Hướng Dẫn Cài Đặt Apk"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_ViewGame_huongDanObb"
+                android:text="Hướng Dẫn Cài Đặt Obb"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/btn_viewGame_Update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#598b1b"
+                android:layout_marginBottom="22dp"
+                android:text="Sửa Thông Tin Game"/>
+
+            <TextView
+                android:id="@+id/btn_add_downloadGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:padding="8dp"
+                android:layout_marginTop="12dp"
+                android:drawableStart="@drawable/ic_shopping"
+                android:text="ok"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold|italic"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="true"
+                android:background="@drawable/boder_download"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+            <EditText
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_commnent_Game"
+                android:textColor="#beddf2"
+                android:layout_alignParentStart="true"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="comment"
+                android:id="@+id/btn_addComment"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RecyclerView_CommentGame"
+            android:layout_marginBottom="22dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/layout_itemtintuc"
+    android:padding="9dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <ImageView
+                android:id="@+id/img_hinhAnhTinTuc"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/csgo" />
+
+            <TextView
+                android:id="@+id/itemtintuc_ngaydang"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center_vertical"
+                android:background="@drawable/boder_time"
+                android:text="Ngaydawng"
+                android:textColor="#aad8f5"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_tieudetintuc"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/img_hinhAnhTinTuc"
+                android:layout_marginTop="-60dp"
+                android:background="@drawable/boder_title_game"
+                android:padding="9dp"
+                android:text="Hitler’s hordes are back for more in this spine-chilling shooter from the makers of Sniper Elite 4!"
+                android:textColor="#aad8f5"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_delTinTuc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_delete" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

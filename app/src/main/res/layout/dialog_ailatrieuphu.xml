@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="9dp"
+ >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_dialog_content_ALTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/boder_cauhoi"
+            android:gravity="center"
+            android:paddingStart="12dp"
+            android:paddingTop="62dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="62dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_dialog_title_ALTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/boder_sothutu"
+            android:gravity="center"
+            android:padding="19dp"
+            android:text="you win"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn_dialog_yes_ALTP"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/tv_dialog_content_ALTP"
+            android:layout_marginTop="-35dp"
+            android:background="@drawable/boder_sothutu"
+            android:gravity="center"
+            android:text="yes"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn_dialog_no_ALTP"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:background="@drawable/boder_sothutu"
+            android:layout_below="@+id/tv_dialog_content_ALTP"
+            android:layout_marginTop="-35dp"
+            android:layout_alignParentEnd="true"
+            android:text="no"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

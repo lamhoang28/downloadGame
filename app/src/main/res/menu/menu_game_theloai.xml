@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Tât cả"
+        android:id="@+id/mn_all"
+        />
+    <item android:title="Hành Động"
+        android:id="@+id/mn_hanhDong"
+        />
+    <item android:title="Chiến Thuật"
+        android:id="@+id/mn_chienThuat"
+        />
+    <item android:title="Kinh Dị"
+        android:id="@+id/mn_dinhDi"
+        />
+
+
+</menu>

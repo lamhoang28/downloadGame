@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_create"
+    android:padding="1dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/boder"
+        android:padding="9dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_add_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="29dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Game Mới"/>
+
+        <View
+            android:layout_width="400dp"
+            android:layout_height="1dp"
+            android:background="#beddf2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Tên Game"/>
+
+        <EditText
+            android:id="@+id/edt_add_nameGame"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#beddf2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Giới Thiệu Game"/>
+
+        <EditText
+            android:id="@+id/edt_add_GioiThieuGame"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#beddf2"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19dp"
+                android:layout_marginTop="22dp"
+                android:textColor="#beddf2"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:text="Trực tuyến"/>
+
+                <RadioGroup
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/radio_online"
+                    android:text="Online"
+                    android:textColor="#beddf2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/radio_offline"
+                    android:text="Offline"
+                    android:textColor="#beddf2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19dp"
+                android:layout_marginTop="22dp"
+                android:textColor="#beddf2"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:text="Thể Loại"/>
+
+                <RadioGroup
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/radio_hd"
+                        android:text="Hành Động"
+                        android:textColor="#beddf2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:id="@+id/radio_ct"
+                        android:text="Chiến Thuật"
+                        android:textColor="#beddf2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:id="@+id/radio_kd"
+                        android:text="Kinh Dị"
+                        android:textColor="#beddf2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_gelary"
+            android:id="@+id/btn_add_imgGame"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_gelary"
+            android:id="@+id/btn_add_imgGame1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_gelary"
+            android:id="@+id/btn_add_imgGame2"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_gelary"
+            android:id="@+id/btn_add_imgGame3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Video Game"/>
+
+        <EditText
+            android:id="@+id/edt_add_videoGame"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#beddf2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Điều Khoản"/>
+
+        <EditText
+            android:id="@+id/edt_add_dieuKhoanGame"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#beddf2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Link Apk"/>
+
+        <EditText
+            android:id="@+id/edt_add_linkApk"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#beddf2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Giá Tiền"/>
+
+        <EditText
+            android:id="@+id/edt_add_CoinGame"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#beddf2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:id="@+id/tv_error_createGameorMod"
+            />
+        <Button
+            android:id="@+id/btn_addGame"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#3da2ef"
+            android:fontFamily="sans-serif-light"
+            android:text="Tạo Game Mới"
+            android:textSize="19dp" />
+        <Button
+            android:id="@+id/btn_CannerGame"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#3F51B5"
+            android:fontFamily="sans-serif-light"
+            android:text="Hủy"
+            android:textSize="19dp" />
+
+    </LinearLayout>
+</ScrollView>

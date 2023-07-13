@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="9dp"
+    android:background="@color/white"
+    tools:context=".Tab_Apps.Tab_ProTeam5.Frag_Register">
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_create_Gmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#3da2ef"
+            app:hintTextColor="#3da2ef"
+            app:boxBackgroundColor="#F1EFEF"
+            app:endIconMode="clear_text"
+            app:placeholderText="abc@gmail.com"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:startIconDrawable="@drawable/ic_email"
+            app:startIconTint="@color/purple_500">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mail"
+                android:shadowColor="#F7EFEF" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_create_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#3da2ef"
+            app:hintTextColor="#3da2ef"
+            app:boxBackgroundColor="#F1EFEF"
+            app:endIconMode="clear_text"
+            app:placeholderText="Nguyễn Văn A"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:startIconDrawable="@drawable/ic_email"
+            app:startIconTint="@color/purple_500">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Họ và tên"
+                android:shadowColor="#F7EFEF" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_create_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:counterEnabled="true"
+            app:counterMaxLength="2"
+            android:layout_marginTop="12dp"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#3da2ef"
+            app:hintTextColor="#3da2ef"
+            app:boxBackgroundColor="#F1EFEF"
+            app:endIconMode="clear_text"
+            app:placeholderText="22"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:startIconDrawable="@drawable/ic_tintuc"
+            app:startIconTint="@color/purple_500">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tuổi"
+                android:inputType="number"
+                android:shadowColor="#F7EFEF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_create_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:scrollbarSize="12dp"
+            app:boxBackgroundColor="#F1EFEF"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#3da2ef"
+            app:hintTextColor="#3da2ef"
+            app:boxStrokeWidth="2dp"
+            app:endIconMode="password_toggle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:placeholderText="******"
+            app:startIconDrawable="@drawable/ic_password"
+            app:startIconTint="@color/purple_500">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_create_pass2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="12dp"
+            app:boxBackgroundColor="#F1EFEF"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#3da2ef"
+            app:hintTextColor="#3da2ef"
+            app:boxStrokeWidth="2dp"
+            app:endIconMode="password_toggle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:placeholderText="******"
+            app:startIconDrawable="@drawable/ic_password"
+            app:startIconTint="@color/purple_500">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Xác nhận mật khẩu"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_error"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FC0101" />
+
+        <CheckBox
+            android:id="@+id/chk_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đồng ý với điều khoản sử dụng"
+            android:textSize="19dp"
+            android:textColor="#3da2ef"
+            android:fontFamily="sans-serif-light"/>
+
+        <Button
+            android:id="@+id/btn_createMember"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#3da2ef"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="100dp"
+            android:text="create account"
+            android:textSize="19dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_main"
+    tools:context=".Tab_Apps.HuongDan.Acti_HuongDan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:text="I/ Sơ lược: Có 1 số bạn tải tập tin trò chơi hoặc ứng dụng trên mạng .apk mà không biết cách nào để cài đặt nó vào máy nên hôm nay mình sẽ viết 1 bài hướng dẫn các bạn cài trò chơi và ứng dụng ở trên mạng hoặc trong blog của mình. Có hình ảnh và hướng dẫn chi tiết nên hầu như các bạn sẽ làm được."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:layout_marginTop="6dp"
+            android:text="II/ Cách cài: 1/ Đối với máy ngôn ngữ là Tiếng Việt:
+            Bước 1: Các bạn vào menu ứng dụng của máy. Chọn “Cài đặt” -> Kéo xuống chọn “Bảo mật” (như hình):"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="6dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_huongdan1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:layout_marginTop="6dp"
+            android:text="Bước 2: Sau khi vào “Bảo mật” các bạn tích vào ☑ “Nguồn không xác định” (như hình):"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="6dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_huongdan2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:layout_marginTop="6dp"
+            android:text="Bước 3: Các bạn vào trình duyệt tải 1 ứng dụng hoặc trò chơi .apk, sau đó mở tập tin thì máy sẽ hỏi và các bạn chọn “Trình cài đặt gói” (như hình) là xong. Bây giờ chỉ việc nhấn “Cài đặt” là xong."
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="6dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_huongdan3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:layout_marginTop="6dp"
+            android:text="2/ Đối với máy ngôn ngữ là Tiếng Anh (English):Bước 1: Các bạn vào menu ứng dụng của máy. Chọn “Settings” -> Kéo xuống chọn “Security” (như hình):"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="6dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_huongdan4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:layout_marginTop="6dp"
+            android:text="Bước 2: Sau khi vào “Security” các bạn tích vào ☑ “Unknown sources” (như hình):"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="6dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_huongdan5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:layout_marginTop="6dp"
+            android:text="Bước 3: Các bạn vào trình duyệt tải 1 ứng dụng hoặc trò chơi .apk, sau đó mở tập tin thì máy sẽ hỏi và các bạn chọn “Package installer” (như hình) là xong. Bây giờ chỉ việc nhấn “Install” là xong."
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="6dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_huongdan6"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="12dp"
+            android:text="Vậy là đã xong, cám ơn các bạn đã quan tâm!"/>
+    </LinearLayout>
+
+</ScrollView>

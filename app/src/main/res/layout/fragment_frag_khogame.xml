@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/background_create"
+    tools:context=".Tab_Apps.Frag_KhoGame">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:drawableStart="@drawable/baseline_sports_esports_24"
+        android:text="  Kho Game Của Tôi"
+        android:textSize="16dp"
+        android:textAllCaps="true"
+        android:gravity="center_vertical"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#e5e5e5"
+        android:background="@drawable/boder_light"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e5e5e5"/>
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:iconifiedByDefault="false"
+        app:queryHint="Nhập tên game bạn muốn tìm"
+        android:background="@color/white"
+        app:searchIcon="@drawable/baseline_search_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:id="@+id/SearchView_khoGame"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView_khogame"/>
+
+</LinearLayout>

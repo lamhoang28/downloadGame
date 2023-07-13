@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_Profile"
+        android:name="com.example.proteam5.Tab_Apps.Frag_TrangCaNhan"
+        android:label="Trang Cá Nhân"
+        tools:layout="@layout/fragment_frag_home" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proteam5.Tab_Apps.Frag_ProTeam5"
+        android:label="Trang Chủ"
+        tools:layout="@layout/fragment_frag_pro_team5" />
+
+    <fragment
+        android:id="@+id/nav_CaiDat"
+        android:name="com.example.proteam5.Tab_Apps.Frag_CaiDatChung"
+        android:label="Cài Đặt"
+        tools:layout="@layout/fragment_frag_cai_dat_chung" />
+
+    <fragment
+        android:id="@+id/nav_QuanLy"
+        android:name="com.example.proteam5.Tab_Apps.Frag_QuanLy"
+        android:label="Quản lý"
+        tools:layout="@layout/fragment_frag__quan_ly" />
+    <fragment
+        android:id="@+id/nav_ThongBao"
+        android:name="com.example.proteam5.Tab_Apps.Frag_ThongBao"
+        android:label="Thông Báo"
+        tools:layout="@layout/fragment_frag__thong_bao" />
+</navigation>

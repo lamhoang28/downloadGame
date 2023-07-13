@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/menu_Home"
+        />
+    <item android:title="Game Store"
+        android:icon="@drawable/baseline_sports_esports_24"
+        android:id="@+id/menu_Game"
+        />
+    <item android:title="Tin Tức"
+        android:icon="@drawable/baseline_newspaper_24"
+        android:id="@+id/menu_tinTuc"
+        />
+    <item android:title="Ứng Dụng"
+        android:icon="@drawable/baseline_app_shortcut_24"
+        android:id="@+id/mn_Apps"
+        />
+    <item android:title="Game Đã Mua"
+        android:icon="@drawable/baseline_sports_esports_24"
+        android:id="@+id/menu_myGame"
+        />
+
+    <item android:title="Cài Đặt"
+        android:icon="@drawable/ic_caidat"
+        android:id="@+id/menu_setting"
+        />
+
+</menu>

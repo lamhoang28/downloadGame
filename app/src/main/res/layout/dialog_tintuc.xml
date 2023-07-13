@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_create"
+    android:orientation="vertical"
+    android:padding="1dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/boder"
+        android:padding="9dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Tin Tức"
+            android:textColor="#beddf2"
+            android:gravity="center"
+            android:textSize="29dp"/>
+
+        <View
+            android:layout_width="400dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#beddf2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Tiêu Đề"
+            android:textColor="#beddf2"
+            android:textSize="19dp"/>
+        <EditText
+            android:id="@+id/edt_add_tieuDe_tinTuc"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/boder_edittext"
+            android:fontFamily="sans-serif-light"
+            android:layout_height="40dp"
+            android:paddingLeft="12dp"
+            android:textColor="#beddf2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Nội Dung"
+            android:textColor="#beddf2"
+            android:textSize="19dp"/>
+
+        <EditText
+            android:id="@+id/edt_add_noiDung_tinTuc"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/boder_edittext"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="12dp"
+            android:textColor="#beddf2"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_gelary"
+            android:id="@+id/btn_add_img"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_gelary"
+            android:id="@+id/btn_add_img1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_gelary"
+            android:id="@+id/btn_add_img2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#beddf2"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:text="Video Review"/>
+
+        <EditText
+            android:id="@+id/edt_add_videoTinTuc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/boder_edittext"
+            android:textColor="#beddf2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#FF0000"
+            android:id="@+id/tv_error_tinTuc"
+            />
+
+        <Button
+            android:id="@+id/btn_add_TinTuc"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="9dp"
+            android:backgroundTint="#3da2ef"
+            android:fontFamily="sans-serif-light"
+            android:text="Thêm Bài Viết"
+            android:textSize="19dp" />
+        <Button
+            android:id="@+id/btn_huy_TinTuc"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="9dp"
+            android:backgroundTint="#3F51B5"
+            android:fontFamily="sans-serif-light"
+            android:text="Hủy"
+            android:textSize="19dp" />
+    </LinearLayout>
+</ScrollView>

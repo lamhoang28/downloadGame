@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    tools:context=".Tab_Apps.Acti_GioiThieu">
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:drawableEnd="@android:drawable/ic_media_ff"
+        android:padding="9dp"
+        android:text="Bỏ qua"
+        android:textColor="#beddf2"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_gioiThieu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_next"
+        android:layout_below="@+id/tv_skip" />
+
+    <RelativeLayout
+        android:id="@+id/layout_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/circleIndicator_gioiThieu"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:drawableEnd="@android:drawable/ic_media_play"
+            android:padding="9dp"
+            android:text="Tiếp theo "
+            android:textColor="@color/white"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

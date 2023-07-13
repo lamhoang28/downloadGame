@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_main"
+    tools:context=".Tab_Apps.Frag_ProTeam5">
+
+    <FrameLayout
+        android:id="@+id/abcxyz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ChipNavigationBar_Home" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#beddf2"
+        android:id="@+id/view_FragProteam5"
+        android:layout_above="@+id/ChipNavigationBar_Home"/>
+
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/ChipNavigationBar_Home"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        app:cnb_menuResource="@menu/menu_home"
+        app:cnb_orientationMode="horizontal"
+        app:cnb_addBottomInset="false"
+        app:cnb_addLeftInset="false"
+        app:cnb_addRightInset="false"
+        app:cnb_addTopInset="false"
+        app:cnb_unselectedColor="#beddf2"
+        app:cnb_badgeColor="#FF5722"
+        app:cnb_radius="8dp"
+        app:cnb_iconSize="30dp"
+        app:cnb_animationDuration="175"/>
+
+
+</RelativeLayout>

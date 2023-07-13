@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "777036525778",
+    "project_id": "yeuapk-254f9",
+    "storage_bucket": "yeuapk-254f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777036525778:android:0fc619f2977abad8d43d0b",
+        "android_client_info": {
+          "package_name": "com.example.proteam5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777036525778-frtv44p5v0ag6uh3tapjjve0l1fu1chc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-LJ32yh8ntCadyFoiBBfJZrIhnjD5cio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777036525778-frtv44p5v0ag6uh3tapjjve0l1fu1chc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

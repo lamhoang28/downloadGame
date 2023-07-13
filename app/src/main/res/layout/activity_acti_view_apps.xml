@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_create"
+    tools:context=".Tab_Apps.View.Acti_ViewApps">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_view_tenApps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold|italic"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Call of Duty®: Infinite Warfare"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Nội Dung Chính :"
+            android:textAllCaps="true"
+            android:textColor="#beddf2"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_view_noiDungApps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Infinite Warfare delivers three unique game modes: Campaign, Multiplayer, and Zombies."
+            android:textAllCaps="true"
+            android:textColor="#beddf2"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_view_anhReviewApps"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/csgo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Một Số Hình Ảnh:"/>
+
+        <ImageView
+            android:id="@+id/img_view_anhReview1Apps"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="12dp"
+            android:layout_height="200dp"
+            android:src="@drawable/csgo"/>
+
+
+        <ImageView
+            android:id="@+id/img_view_anhReview2Apps"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/csgo" />
+
+        <ImageView
+            android:id="@+id/img_view_anhReview3Apps"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/csgo"/>
+        <TextView
+            android:id="@+id/tv_view_FAQApps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#beddf2"
+            android:textAllCaps="true"
+            android:text="Infinite Warfare delivers three unique game modes: Campaign, Multiplayer, and Zombies."/>
+
+        <TextView
+            android:id="@+id/btn_add_download_Apps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_marginTop="12dp"
+            android:drawableStart="@drawable/ic_shopping"
+            android:text="ok"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold|italic"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="true"
+            android:background="@drawable/boder_login"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sửa Thông Tin Ứng Dụng"
+            android:id="@+id/btn_apps_update"
+            android:textColor="#FFFFFF"
+            android:background="#3F51B5"
+            android:layout_marginBottom="22dp"/>
+    </LinearLayout>
+</ScrollView>

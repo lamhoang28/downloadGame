@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_main"
+    tools:context=".Tab_Apps.HuongDan.Acti_HuongDanObb">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="9dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:text="Bước 1:  Sau khi tải về có 1 tập tin .apk là game và 1 thư mục là data (Nếu Có)"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/img_huongdan_obb1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:text=" Bước 2: Tiến hành đè vào thư mục data để chọn và “Chép” (Copy – Chỉ sao chép) hoặc Cắt (Cut – Cắt đi luôn).Bạn có thể copy ra thư mục khác để tránh gặp sự cố không mong muốn"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/img_huongdan_obb2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:text="Bước 3 : Tiến hành vào thư mục /sdcard/Android/. Bạn vào thư mục này sẽ thấy 2 thư mục nữa đó là data và Obb (Không có thì bạn tạo thêm vào nhé). Rồi theo yêu cầu của từng game mà bạn chọn đúng thư mục nhé (Bên bài viết chia sẻ game có hướng dẫn bỏ vào thư mục nào đó). Ở đây game mẫu yêu cầu mình bỏ vào Obb."/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/img_huongdan_obb3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:text="Bước 4 : Sau khi dán bạn sẽ được thấy một thư mục mới như hình."/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/img_huongdan_obb4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:text="Bước 5 : Vào lại /sdcard/Download/ cài đặt tập tin .apk hồi nãy giải nén ra nào ."/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/img_huongdan_obb5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#beddf2"
+            android:text="Xong thì vào game và tận hưởng."/>
+    </LinearLayout>
+</ScrollView>

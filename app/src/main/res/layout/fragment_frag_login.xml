@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="9dp"
+    android:background="@color/white"
+    tools:context=".Tab_Apps.Tab_ProTeam5.Frag_Login">
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_login_gmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#3da2ef"
+            app:hintTextColor="#3da2ef"
+            app:endIconMode="clear_text"
+            app:placeholderText="abc@..."
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:startIconDrawable="@drawable/ic_profile"
+            app:startIconTint="#898A8B">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mail đăng nhập" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_login_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="12dp"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#3da2ef"
+            app:hintTextColor="#3da2ef"
+            app:boxStrokeWidth="2dp"
+            app:endIconMode="password_toggle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:placeholderText="******"
+            app:startIconDrawable="@drawable/ic_password"
+            app:startIconTint="#898A8B">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/chk_checkB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ghi nhớ mật khẩu"
+            android:textSize="15dp"
+            android:textColor="#3da2ef"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:id="@+id/tv_login"
+            android:textColor="@color/white"
+            android:background="@drawable/boder_login"
+            android:text="Đăng nhập"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:textSize="19dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_FogotPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Quên mật khẩu?"
+            android:gravity="center"
+            android:textColor="#3da2ef"
+            android:textSize="16dp"
+            android:layout_marginBottom="100dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

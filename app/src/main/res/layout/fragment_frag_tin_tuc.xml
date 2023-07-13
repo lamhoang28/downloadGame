@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/SwipeRefreshLayout_tinTuc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_create"
+    android:orientation="vertical"
+    tools:context=".Tab_Apps.Frag_TinTuc">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:drawableStart="@drawable/baseline_newspaper_24"
+            android:text="  Tin Tức"
+            android:textAllCaps="true"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#e5e5e5"
+            android:background="@drawable/boder_light"
+            android:textStyle="bold"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:iconifiedByDefault="false"
+            app:queryHint="Nhập tin tức bạn muốn tìm kiếm"
+            android:background="@color/white"
+            app:searchIcon="@drawable/baseline_search_24"
+            app:actionViewClass="androidx.appcompat.widget.SearchView"
+            android:id="@+id/SearchView_tinTuc"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/floating_tintuc"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:src="@android:drawable/ic_input_add"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/recyclerview_tinTuc"/>
+
+
+    </LinearLayout>
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
